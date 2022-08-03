@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+.card img {
+    max-width: 400px;
+}
+.card-text {
+    display: flex;
+    flex-direction: column;
+}
+.price {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------Footer Stuffs--------- */
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+.attribution a:hover {
+    color: purple;
+}
