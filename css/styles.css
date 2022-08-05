@@ -13,26 +13,42 @@ body {
     max-width: 80%;
 }
 .card img {
-    max-width: 80%;
+   
 }
 .card-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
+    width: 100%;
+    margin: auto;
+}
+h1 {
+    font-size: 2em;
 }
 .price {
     display: flex;
-    justify-content: space-between;
+    margin: auto;
+}
+.price p {
+    padding: 0 10px;
 }
 .strikethrough {
     text-decoration: line-through;
 }
 form {
-    margin-bottom: 20px;
-
+    margin: auto;
+    padding-bottom: 20px;
 }
+button {
+    padding: 10px 40px;
+}
+button:hover {
+    border: 3px black solid;
+    border-radius: 3px;
+}
+button:active {
+    background-color: red;
+}
+
 
 
 
