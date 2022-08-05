@@ -10,16 +10,28 @@ body {
     background-color: white;
     border-radius: 10px;
     margin: auto;
+    max-width: 80%;
 }
 .card img {
-    max-width: 400px;
+    max-width: 80%;
 }
 .card-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
 }
 .price {
     display: flex;
+    justify-content: space-between;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+form {
+    margin-bottom: 20px;
+
 }
 
 
